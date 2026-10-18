@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project primarily focuses on evaluating data quality, catogorizing customer subscription information from a Portugueus bank's direct marketing campaign by using MySQL. By anazyling data, cleaning data and standardizing subscription outcomes are to improve the accuracy of subscription information, and prepare a structured data for further banking and customer employees
+This project primarily focuses on evaluating data quality, categorizing customer subscription information from a Portugueus bank's direct marketing campaign by using MySQL. By analyzing data, cleaning data and standardizing subscription outcomes are to improve the accuracy of subscription information, and prepare a structured data for further banking and customer employees
 
 ---
 
@@ -57,60 +57,37 @@ Poutcome
 
 ## 3. Tools & SQL Skills
 
-**Tools:** MySQL Workbench, Tableau, Visualization
+**Tools:** MySQL Workbench, Tableau, Visual Studio Code
 
-**What SQL Techniques I used?:**
-- Data profiling using `COUNT()`, `DISTINCT`, `MIN()` and `MAX()`
-- Conditional logic using `CASE WHEN`
-- Data transformation using `ALTER TABLE` and `UPDATE`
-- Data validation using `GROUP BY` and aggregate functions
+- Used `COUNT()`, `DISTINCT`, `MIN()` and `MAX()`
+- Applied `CASE WHEN` to categorize and organize data
+- Used `ALTER TABLE` and `UPDATE` for data transformation
+- Used `GROUP BY` and aggregate functions to review and
+- Created line and bar charts in Tableau to compare customer data and subscription trends.
 
 ---
 
 ## 4. Data Preparation Process
 
-### a. Data Quality Assessment
+### a. Data Quality Estimation:
 
-Examined the original dataset to identify potential data quality issues.
-
-- Checked missing values and `unknown` categories.
-- Compared total records against distinct combinations of the original 17 columns.
-- Checked selected text fields for unnecessary whitespace.
-- Reviewed age, account balance, call duration, and campaign contact ranges.
-
-**Results:**
-- 45,211 total records
-- 45,211 distinct combinations across the original columns
-- No unnecessary whitespace detected in the selected fields
-- 3 records with zero call duration
-- 3,766 records with negative account balances
-
-Negative balances and other unusual values were retained because they were not confirmed to be data errors.
+- Checked missing values, duplicate data and `unknown` categories.
+- Reviewed unusual values in age, account balance, call duration, and campaign contacts.
+- Kept the negative balance and other rare values because they could either error or not, needing more exploration.
 
 ### b. Subscription Status Standardization
 
-Created a separate table, `bank_marketing_clean`, to preserve the original dataset.
-
-Added a new `subscription_status` column to make the subscription outcome easier to interpret.
-
-| Original Value | Standardized Value |
-|---|---|
-| yes | Subscribed |
-| no | Not Subscribed |
+- Created `bank_marketing_clean` to keep the original dataset.
+- Set `subscription_status`  from yes/no into subscribed/not subscribed to identify the amount easier.
 
 ### c. Customer Age Segmentation
 
-Created an `age_group` column using SQL `CASE WHEN` statements.
-
-Customers were classified into five age categories: 18–29, 30–39, 40–49, 50–59, and 60+.
+- Used SQL `CASE WHEN` to create 5 ages groups such as: 18–29, 30–39, 40–49, 50–59, and 60+.
 
 ### d. Final Data Validation
 
-Verified the resulting dataset to confirm that:
-
-- All 45,211 customer records were retained.
-- Both new columns contained no NULL values.
-- Five age groups and two subscription categories were successfully created.
+- Confirmed all 45,211 customer records were retained.
+- Verified successfully there are no NULL values in columns: subscription_status and age_group. 
 
 ---
 
@@ -151,10 +128,14 @@ These findings describe the overall dataset and do not establish which customer 
 ---
 
 ## What I learned
-
+Throughout this project, I am able to:
+- Write SQL queries to explore and better understand a real-world banking dataset
+- Get familiar with GROUP BY, ORDER BY and COUNT() and aggregate functions to summarize customer information 
+- Identify missing values, duplicate records and unusual data values
+- Prepare a professional dashboard
 
 ---
 
 ## Conclusion
 
-This project demonstrates foundational SQL skills in examining data quality, applying conditional transformations, preserving original records, and validating a prepared dataset. The resulting data structure supports future analysis of customer characteristics and term deposit subscriptions.
+Overall, this project highlights how fundamental SQL skills can help evaluate data quality, organize data and deliver useful business insights. It also helped me to practice conditional statements and prepare a better future analysis of potential customers and term deposit subscriptions.
