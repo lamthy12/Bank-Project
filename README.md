@@ -1,8 +1,8 @@
-# Bank Marketing Data Cleaning | MySQL
+# 💰 Bank Marketing Data Cleaning | MySQL
 
 ## Project Overview
 
-This project primarily focuses on evaluating data quality, categorizing customer subscription information from a Portugueus bank's direct marketing campaign by using MySQL. By analyzing data, cleaning data and standardizing subscription outcomes are to improve the accuracy of subscription information, and prepare a structured data for further banking and customer employees
+This project primarily focuses on evaluating data quality, categorizing customer subscription information from a Portuguese bank's direct marketing campaign 💵 by using MySQL. By analyzing data 🖥️, cleaning data 🔋 and standardizing subscription outcomes 🔥 are to improve the accuracy of subscription information, and prepare a structured data for further banking and customer employees
 
 ---
 
@@ -10,7 +10,7 @@ This project primarily focuses on evaluating data quality, categorizing customer
 
 Before analyzing the effectiveness of a marketing campaign, it is important to understand whether the underlying customer data is reliable and consistent.
 
-This project focuses on three main questions:
+📌 This project focuses on three main questions:
 
 - Are there missing values, duplicate records, or unusual data values?
 - How can customer subscription outcomes be presented more clearly?
@@ -20,7 +20,7 @@ This project focuses on three main questions:
 
 ## 2. Dataset
 
-**Source:** [UCI Machine Learning Repository – Bank Marketing]
+📎**Source:** [UCI Machine Learning Repository – Bank Marketing]
 (https://archive.ics.uci.edu/dataset/222/bank+marketing)
 
 **File:** `bank-full.csv`
@@ -35,7 +35,7 @@ This project focuses on three main questions:
 
 - Variables Table in BankMarketing_Dataset includes:
 
-Age
+- **Age
 Job 
 Marital Status
 Education
@@ -55,7 +55,7 @@ Poutcome
 
 ---
 
-## 3. Tools & SQL Skills
+## 3. Tools & SQL Skills 📚📊
 
 **Tools:** MySQL Workbench, Tableau, Visual Studio Code
 
@@ -127,12 +127,12 @@ These findings describe the overall dataset and do not establish which customer 
 
 ---
 
-## What I learned
+## What I learned 📝
 Throughout this project, I am able to:
-- Write SQL queries to explore and better understand a real-world banking dataset
-- Get familiar with GROUP BY, ORDER BY and COUNT() and aggregate functions to summarize customer information 
-- Identify missing values, duplicate records and unusual data values
-- Prepare a professional dashboard
+- 🖌️ Write SQL queries to explore and better understand a real-world banking dataset
+- 📁 Get familiar with GROUP BY, ORDER BY and COUNT() and aggregate functions to summarize customer information 
+- 👀 Identify missing values, duplicate records and unusual data values
+- 📈 Prepare a professional dashboard
 
 ---
 
