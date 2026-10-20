@@ -35,7 +35,7 @@ Before analyzing the effectiveness of a marketing campaign, it is important to u
 
 - Variables Table in BankMarketing_Dataset includes:
 
-- **Age
+Age
 Job 
 Marital Status
 Education
@@ -93,7 +93,7 @@ Poutcome
 
 ## 5. Key Findings
 <img width="2048" height="1450" alt="1f65f657-a788-4430-95c0-11a8eb7971e4" src="https://github.com/user-attachments/assets/c7c83bd5-a6a0-4c13-b849-45ba7d8caadc" />
-<text>**Subscription outcomes**</text>
+**Subscription outcomes**
 
 | Subscription Status | Customers | Share |
 |---|---:|---:|
