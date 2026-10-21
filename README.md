@@ -92,7 +92,8 @@ Poutcome
 ---
 
 ## 5. Key Findings
-<img width="2048" height="1450" alt="1f65f657-a788-4430-95c0-11a8eb7971e4" src="https://github.com/user-attachments/assets/c7c83bd5-a6a0-4c13-b849-45ba7d8caadc" />
+
+![Bank Marketing Dashboard](bank-marketing-dashboard.png)
 
 **Subscription outcomes**
 
@@ -141,4 +142,4 @@ Throughout this project, I am able to:
 
 This project has reflected my skills for writing complex SQL queries, managing database, providing a clear vision of business insights and at first, I did not know much about it. I learned by asking difficult questions of my dataset and eventually managed to write queries by myself. Also, building an interactive dashboard from Tableau is really helpful to have a more comprehensive perspective on the project. 
 
-Overall, the Bank Marketing project helps me have a better understanding of how many customers subscribed for term deposits from a bank marketing campaign. By checking and cleaning data from various groups of customers, including age ranges, job types, subscription statuses and personal loans, it allows users to locate data patterns easily. To wrap up, this analysis could assist a bank to track and analyze which type of groups may have potential subscribers for their term deposits and improve future marketing campaigns. 
+Overall, the Bank Marketing project helps me have a better understanding of how many customers subscribed for term deposits from a bank marketing campaign. By checking and cleaning data from various groups of customers, including age ranges, job types, subscription statuses and personal loans, it allows users to locate data patterns easily. To wrap up, this analysis could assist a bank to track and analyze which type of groups may have potential subscribers for their term deposits and improve future marketing campaigns.
